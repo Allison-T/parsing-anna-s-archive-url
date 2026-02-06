@@ -1,0 +1,15 @@
+{
+  "last_updated": "2025-02-06T12:00:00",
+  "source": "https://en.wikipedia.org/wiki/Anna%27s_Archive",
+  "urls": [
+    {
+      "url": "https://annas-archive.li/",
+      "display_text": "annas-archive.li"
+    },
+    {
+      "url": "https://annas-archive.gl/",
+      "display_text": "annas-archive.gl"
+    }
+  ],
+  "mirror_sites": []
+}
