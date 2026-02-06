@@ -53,34 +53,6 @@ def extract_urls_from_infobox(html: str) -> list:
     return urls
 
 
-def extract_mirror_sites_from_content(html: str) -> list:
-    """从正文内容中提取镜像站点信息"""
-    soup = BeautifulSoup(html, 'html.parser')
-    mirrors = []
-    
-    # 查找包含镜像站点信息的段落
-    content = soup.find('div', {'id': 'mw-content-text'})
-    if content:
-        text = content.get_text()
-        
-        # 查找 .li 和 .gl 域名的提及
-        domain_patterns = [
-            r'(\.(?:li|gl|se|gs|org))',
-        ]
-        
-        # 查找所有外部链接
-        external_links = content.find_all('a', {'class': 'external'})
-        for link in external_links:
-            href = link.get('href', '')
-            if 'annas-archive' in href or 'anna' in href.lower():
-                mirrors.append({
-                    'url': href,
-                    'source': 'external_link'
-                })
-    
-    return mirrors
-
-
 def save_to_json(data: dict, filename: str = 'urls.json'):
     """保存数据为 JSON 格式"""
     with open(filename, 'w', encoding='utf-8') as f:
@@ -103,13 +75,7 @@ def save_to_markdown(data: dict, filename: str = 'urls.md'):
             url = url_info.get('url', '')
             text = url_info.get('display_text', '')
             f.write(f"| [{url}]({url}) | {text} |\n")
-        
-        if data.get('mirror_sites'):
-            f.write("\n## 镜像站点\n\n")
-            for mirror in data['mirror_sites']:
-                url = mirror.get('url', '')
-                f.write(f"- [{url}]({url})\n")
-        
+      
         f.write("\n---\n\n")
         f.write("## 说明\n\n")
         f.write("此文件由自动化脚本生成，每天自动从 Wikipedia 获取最新信息。\n")
@@ -121,7 +87,7 @@ def main():
     """主函数"""
     wiki_url = "https://en.wikipedia.org/wiki/Anna%27s_Archive"
     
-    print(f"🔄 正在抓取: {wiki_url}")
+    print(f"正在抓取: {wiki_url}")
     
     try:
         # 获取页面内容
@@ -129,34 +95,32 @@ def main():
         
         # 提取 URL
         urls = extract_urls_from_infobox(html)
-        mirrors = extract_mirror_sites_from_content(html)
         
         # 构建数据
         data = {
             'last_updated': datetime.now().isoformat(),
             'source': wiki_url,
-            'urls': urls,
-            'mirror_sites': mirrors
+            'urls': urls
         }
         
         # 保存文件
         save_to_json(data, 'urls.json')
         save_to_markdown(data, 'urls.md')
         
-        print(f"\n✅ 抓取完成!")
-        print(f"   找到 {len(urls)} 个主要 URL")
-        print(f"   找到 {len(mirrors)} 个镜像站点")
+        print(f"\n 抓取完成!")
+        print(f"找到 {len(urls)} 个主要 URL")
+
         
         # 打印结果
-        print("\n📋 抓取结果:")
+        print("\n 抓取结果:")
         for url_info in urls:
             print(f"   - {url_info['url']} ({url_info.get('display_text', 'N/A')})")
         
     except requests.RequestException as e:
-        print(f"❌ 网络请求失败: {e}")
+        print(f"网络请求失败: {e}")
         raise
     except Exception as e:
-        print(f"❌ 处理失败: {e}")
+        print(f"处理失败: {e}")
         raise
 
 
