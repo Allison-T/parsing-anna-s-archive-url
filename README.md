@@ -5,7 +5,6 @@
 ## 功能
 
 - 自动抓取 Wikipedia 页面右侧信息框中的 URL
-- 提取镜像站点信息
 - 每天自动更新（通过 GitHub Actions）
 - 支持手动触发
 - 仅在有变化时提交更新
@@ -63,8 +62,7 @@ python scraper.py
       "url": "https://annas-archive.li/",
       "display_text": "annas-archive.li"
     }
-  ],
-  "mirror_sites": []
+  ]
 }
 ```
 
