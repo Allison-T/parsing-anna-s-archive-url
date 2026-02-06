@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-02-06T12:00:00",
+  "last_updated": "2026-02-06T06:46:35.921045",
   "source": "https://en.wikipedia.org/wiki/Anna%27s_Archive",
   "urls": [
     {
@@ -11,5 +11,182 @@
       "display_text": "annas-archive.gl"
     }
   ],
-  "mirror_sites": []
+  "mirror_sites": [
+    {
+      "url": "https://annas-archive.li/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.gl/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Anna%27s_Archive&action=edit",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-opens-the-door-to-z-library-and-other-pirate-libraries-221118/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/silenzio-annas-archive-shadow-library-blocked-following-publishers-complaint-240104/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://www.laweekly.com/free-z-library-e-book-download-search-engine-annas-archive-launches-amid-arrests/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://mashable.com/article/google-blocks-hundreds-of-millions-of-annas-archive-urls",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/lawsuit-accuses-annas-archive-of-hacking-worldcat-stealing-2-2-tb-data-240207/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-scraped-worldcat-to-help-preserve-all-books-in-the-world-231003/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-urges-ai-copyright-overhaul-to-protect-national-security-250201/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-faces-millions-in-damages-and-a-permanent-injunction-240708/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://www.infodocket.com/2024/02/07/report-lawsuit-accuses-annas-archive-of-hacking-worldcat-stealing-2-2-tb-data/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/key-defendant-in-annas-archive-lawsuit-denies-any-involvement-with-the-site-240416/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://walledculture.org/oclc-says-what-is-known-must-be-shared-but-sues-annas-archive-to-stop-it-sharing-knowledge/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-loses-gs-domain-name-but-remains-resilient-240718/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-scraping-court-defers-key-questions-to-state-supreme-court/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/alleged-annas-archive-operator-dropped-from-u-s-scraping-lawsuit-250417/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-worldcat-scrape-lawsuit-drops-5m-claim-pivots-to-takedown-tactic/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/01/judge-orders-annas-archive-to-delete-scraped-data-no-one-thinks-it-will-comply/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/meta-torrented-over-81-tb-of-data-through-annas-archive-despite-few-seeders-250206/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://www.engadget.com/entertainment/streaming/pirate-group-annas-archive-says-it-has-scraped-spotify-in-its-entirety-211914755.html",
+      "source": "external_link"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/unsealed-spotify-lawsuit-triggered-annas-archive-domain-name-suspensions/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://www.billboard.com/pro/spotify-record-labels-piracy-lawsuit-annas-archive/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/01/annas-archive-loses-org-domain-says-suspension-likely-unrelated-to-spotify-piracy/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/nvidia-contacted-annas-archive-to-secure-access-to-millions-of-pirated-books/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/nvidia-contact-with-annas-archive-doesnt-prove-copyright-infringement/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/dutch-court-orders-isp-to-block-annas-archive-and-libgen-240322/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://www.recht.nl/232695/succesvolle-toepassing-convenant-blokkeren-websites-voor-library-genesis-en-annas-archive",
+      "source": "external_link"
+    },
+    {
+      "url": "https://actualitte.com/article/125026/legislation/libgen-z-library-anna-s-archive-condamnes-en-belgique-pour-piratage-de-livres",
+      "source": "external_link"
+    },
+    {
+      "url": "https://www.archimag.com/veille-documentation/2025/07/18/justice-belge-condamne-sites-libgen-z-library-anna-archive-piratage",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/german-pirate-site-blockades-target-annas-archive-fitgirl-and-rpg-only",
+      "source": "external_link"
+    },
+    {
+      "url": "https://torrentfreak.com/telegram-shuts-down-z-library-annas-archive-channels-over-copyright-infringement-250115/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/faq",
+      "source": "external_link"
+    },
+    {
+      "url": "https://software.annas-archive.li/AnnaArchivist/annas-archive#license",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/blog/putting-5,998,794-books-on-ipfs.html",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/datasets",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/blog/annas-archive-containers.html",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/torrents",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/volunteering",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.li/blog/",
+      "source": "external_link"
+    },
+    {
+      "url": "https://annas-archive.org/datasets",
+      "source": "external_link"
+    }
+  ]
 }
