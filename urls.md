@@ -1,6 +1,6 @@
 # Anna's Archive 网址列表
 
-> 最后更新时间: 2026-02-14T02:07:38.239947
+> 最后更新时间: 2026-02-15T02:25:53.373576
 
 > 数据来源: [https://en.wikipedia.org/wiki/Anna%27s_Archive](https://en.wikipedia.org/wiki/Anna%27s_Archive)
 
@@ -9,6 +9,7 @@
 | 网址 | 显示文本 |
 |------|----------|
 | [https://annas-archive.li/](https://annas-archive.li/) | annas-archive.li |
+| [https://annas-archive.gl/](https://annas-archive.gl/) | annas-archive.gl |
 
 ---
 
