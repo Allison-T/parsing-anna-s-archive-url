@@ -1,14 +1,22 @@
 {
-  "last_updated": "2026-03-02T02:11:35.028039",
+  "last_updated": "2026-03-03T02:13:01.597472",
   "source": "https://en.wikipedia.org/wiki/Anna%27s_Archive",
   "urls": [
     {
-      "url": "https://annas-archive.li/",
-      "display_text": "annas-archive.li"
-    },
-    {
       "url": "https://annas-archive.gl/",
       "display_text": "annas-archive.gl"
+    },
+    {
+      "url": "https://annas-archive.pk/",
+      "display_text": "annas-archive.pk"
+    },
+    {
+      "url": "https://annas-archive.vg/",
+      "display_text": "annas-archive.vg"
+    },
+    {
+      "url": "https://annas-archive.gd/",
+      "display_text": "annas-archive.gd"
     }
   ]
 }
